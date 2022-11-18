@@ -1,5 +1,3 @@
-// List<Card> cardList = new List<Card>();
-
 var cardList = [
     { type: "cupcake", title: "Caja 12 cupcakes", price: 20.00 , url: "assets/12_cupcakes_1.jpg", url2: "assets/cupcakes_2.jpg", url3: "assets/cupcakes_3.jpg", url4:"assets/cupcakes_4.jpg", url5: "assets/cupcakes_5.jpg", url6: "assets/cupcakes_6.jpg", details: "¡Caja de 12 deliciosos cupcakes rellenos! Escoge solo tres sabores. En caso de escoger más de tres se colocarán a disponibilidad."},
     { type: "cupcake", title: "Caja 4 cupcakes", price: 12.00 , url: "assets/4_cupcakes_1.jpg", url2: "assets/cupcakes_2.jpg", url3: "assets/cupcakes_3.jpg", url4:"assets/cupcakes_4.jpg", url5: "assets/cupcakes_5.jpg", url6: "assets/cupcakes_6.jpg", details: "¡Caja de 4 deliciosos cupcakes rellenos! Escoge solo dos sabores. En caso de escoger más de dos se colocarán a disponibilidad."},

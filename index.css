@@ -1,12 +1,7 @@
 li > a:hover,
 li > a:focus {
   text-decoration: none;
-  background-color: rgba(
-    255,
-    156,
-    161,
-    0.7
-  ) !important; /*Change rollover cell color here*/
+  background-color: rgba(255,156,161,0.7) !important;
 }
 
 li a {
@@ -23,10 +18,6 @@ nav {
 
 body {
   overflow-y: auto;
-  /* max-width: 1500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 #top-left {
@@ -69,7 +60,6 @@ img {
 #top-right-h1 {
   color: rgba(255, 156, 161);
   font-size: 4rem;
-  /* width: 400px; */
 }
 
 #top-right-button {
@@ -192,7 +182,6 @@ p {
   border: 2px solid rgba(255, 192, 203, 0.582);
   background-color: rgba(255, 192, 203, 0.429);
   padding: 10px;
-  /* width: auto; */
 }
 
 .overlay {
@@ -290,7 +279,6 @@ html {
 
     .navbar-toggler, .navbar-toggler-icon{
         color: white !important;
-        /* background-color: white; */
         opacity: 1;
     }
 
@@ -321,11 +309,5 @@ html {
         display: flex;
         justify-content: center;
     }
-
-    /* .card img {
-        height: 15rem;
-      } */
-
-
 
   }
