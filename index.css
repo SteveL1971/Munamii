@@ -1,0 +1,331 @@
+li > a:hover,
+li > a:focus {
+  text-decoration: none;
+  background-color: rgba(
+    255,
+    156,
+    161,
+    0.7
+  ) !important; /*Change rollover cell color here*/
+}
+
+li a {
+  font-weight: 600 !important;
+  background-color: white;
+  opacity: 1;
+  border-radius: 0px;
+}
+
+body,
+nav {
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  overflow-y: auto;
+  /* max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+#top-left {
+  display: flex;
+  flex: 1;
+  color: white;
+  height: 824px;
+  overflow: hidden;
+  background-image: url("assets/top-left.png");
+  background-position: top;
+  background-size: cover;
+}
+
+img {
+  background-position: top;
+  background-size: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.6;
+  background-color: transparent;
+  color: white;
+  height: 824px;
+}
+#top-right-block {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#top-right-h1 {
+  color: rgba(255, 156, 161);
+  font-size: 4rem;
+  /* width: 400px; */
+}
+
+#top-right-button {
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  width: 160px;
+  height: 65px;
+  margin-top: 30px;
+  background-color: rgba(71, 209, 186);
+  color: white;
+  border: 0px;
+  padding: 17px;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+#middle-top h3 {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+p {
+  font-weight: 100;
+  font-size: 1.6rem;
+  color: black;
+  margin: 20px 0px 20px 0px;
+  font-family: "Root UI", "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", Arial, sans-serif;
+  line-height: 40px;
+}
+
+#middle, #cupcake-box, #tortas-box {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title-text {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#middle-top,
+#middle-paragraph {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+#middle-title {
+  width: 70%;
+  font-family: "Root UI", "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", Arial, sans-serif;
+}
+
+#cakery-desc-top, #cakery-desc-bottom {
+    width:1100px;
+}
+
+#cakery-desc-top-left {
+    flex: 1.2;
+}
+
+#cakery-desc-top-right {
+    flex: 0.4;
+}
+
+#opening-hours {
+    background-color:rgba(211, 211, 211, 0.578); 
+    width:170px;
+}
+
+
+#footer-bottom {
+    background-color: rgb(239, 239, 239);
+}
+
+.card {
+  width: 300px;
+  max-width: 300px;
+  box-shadow: 1px 1px 3px 4px rgba(255, 192, 203, 0.564);
+  flex: 2 1 300px;
+  margin: 5px;
+  margin-bottom: 30px;
+  border: 0px;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+  height: 20rem;
+  width: 18.8rem;
+  border: 2px solid rgba(255, 192, 203, 0.582);
+  background-color: rgba(255, 192, 203, 0.429);
+  padding: 10px;
+  /* width: auto; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(253, 175, 175, 0.123);
+}
+
+.card-title {
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.card-text {
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  width: 140px;
+  height: 30px;
+  background-color: white;
+}
+
+.card-button:hover {
+    background-color: pink;
+}
+
+a {
+    font-size:1.3rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#cupcake-cards,
+#torta-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1400px;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    #cakery-desc-top-left, #cakery-desc-top-right, #top-right {
+        flex: 1;
+    }
+
+    #top-left {
+        height: 400px;
+    } 
+
+    #header {
+        flex-direction:column;
+    }
+
+    nav {
+        height: 250px;
+        display: flex;
+        text-align: center;
+      }
+
+    .navbar-toggler, .navbar-toggler-icon{
+        color: white !important;
+        /* background-color: white; */
+        opacity: 1;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: black;
+        margin: 20px 0px 20px 0px;
+        line-height: 30px;
+        text-align: center;
+      }
+    
+    #middle-paragraph {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+    #cakery-desc-top {
+        flex-direction: column;
+    }
+
+    #middle-title {
+        margin-top:20px;
+    }
+
+    #opening-hours-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .card img {
+        height: 15rem;
+      } */
+
+
+
+  }
